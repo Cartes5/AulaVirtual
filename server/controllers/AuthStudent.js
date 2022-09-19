@@ -50,7 +50,7 @@ const registerStudent = async (req, res) => {
         lName,
         email,
         password: hash,
-        role: "Estudiante",
+        role: "Student",
         classes: [],
       });
       await newStudentInfo.save((err, docs) =>

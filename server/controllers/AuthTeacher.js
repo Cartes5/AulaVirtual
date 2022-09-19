@@ -18,7 +18,7 @@ const registerTeacher = async (req, res) => {
         lName,
         email,
         password: hash,
-        role: "Profesor",
+        role: "Mentor",
         classes: [],
       });
 
