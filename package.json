@@ -1,0 +1,31 @@
+{
+  "name": "aulavirtual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "build": "cd client && npm install && npm run build",
+    "test": "jest --watchAll --detectOpenHandles"
+  },
+  "engines": {
+    "node": "18.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  }
+}
