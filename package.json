@@ -12,7 +12,7 @@
     "node": "18.9.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abraham",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
