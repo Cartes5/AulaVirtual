@@ -75,7 +75,7 @@ const MainSecFirstComp = ({ socket }) => {
       )}
 
       {role === "Mentor" && (
-        <Link innerTxt={"ROSTER"} clickMe={openRosterHandler} />
+        <Link innerTxt={"Lista"} clickMe={openRosterHandler} />
       )}
 
       <Link innerTxt={"Chat"} clickMe={enterChatHandler} />

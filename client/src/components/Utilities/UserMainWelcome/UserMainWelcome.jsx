@@ -22,7 +22,7 @@ const UserMainWelcome = () => {
       <h3 className={dark ? `${classes.darkH2}` : `${classes.lightH2}`}>
         BIENVENIDO {user.fName}
       </h3>
-      <Button clickMe={logOutHandler} innerTxt={"Log Out"} />
+      <Button clickMe={logOutHandler} innerTxt={"Cerrar sesion"} />
     </article>
   );
 };

@@ -83,7 +83,7 @@ const Chat = ({ socket, user }) => {
             placeholder="escriba aqui..."
           />
           <button className={classes.send} onClick={sendMsgHandler}>
-            enviando
+            Enviar
           </button>
         </div>
       </form>
