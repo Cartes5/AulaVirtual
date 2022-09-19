@@ -76,16 +76,18 @@ const UserMainAside = ({ socket }) => {
         value={className}
         onChange={(e) => setClassName(e.target.value)}
         type="text"
-        placeholder={role === "Mentor" ? "New Class Name" : "Class Key"}
+        placeholder={role === "Mentor" ? "Nombre nueva clase" : "Clave clase"}
       />
       {invalidForm && <p>REQUERIDO</p>}
       <div className={classes.btnBox}>
         {role === "Mentor" ? (
-          <Button clickMe={addClassHandler} innerTxt={"Add Class"} />
+          <Button clickMe={addClassHandler} innerTxt={"Añadir clase"} />
         ) : (
-          <Button clickMe={enrollClassHandler} innerTxt={"Enroll Class"} />
+          <Button clickMe={enrollClassHandler} innerTxt={"Inscribir clase"} />
         )}
       </div>
     </aside>
   );
 };
+
+export default UserMainAside;

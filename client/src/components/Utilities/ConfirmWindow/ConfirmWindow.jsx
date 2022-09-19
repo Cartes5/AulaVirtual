@@ -77,7 +77,7 @@ const ConfirmWindow = () => {
            ${currentClass.className}?`}
       </p>
 
-      <p className={classes.p}>Are your sure?</p>
+      <p className={classes.p}>¿Estas seguro?</p>
 
       <div className={classes.btnBox}>
         <Button innerTxt={"Cancelar"} clickMe={cancelHandler} />

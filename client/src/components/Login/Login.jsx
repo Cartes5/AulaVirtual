@@ -107,7 +107,7 @@ const Login = () => {
           type="email"
           placeholder="Email"
         />
-        {emailInvalid && <p className={classes.serverErr}>Enter valid email</p>}
+        {emailInvalid && <p className={classes.serverErr}>Ingrese un email valido</p>}
 
         <input
           onChange={inputChangeHandler}
@@ -145,7 +145,7 @@ const Login = () => {
 
         <div className={classes.btnBox}>
           <Button innerTxt={"Login"} clickMe={logInHandler} />
-          <Button innerTxt={"Return"} clickMe={closeModalHandler} />
+          <Button innerTxt={"Volver"} clickMe={closeModalHandler} />
         </div>
       </form>
     </div>

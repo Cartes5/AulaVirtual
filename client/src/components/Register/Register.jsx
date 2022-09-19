@@ -103,7 +103,7 @@ const Register = ({ isTeacher }) => {
           placeholder="Nombre"
         />
         {fNnameInvalid && (
-          <p className={classes.serverErr}>Please fill out all fields</p>
+          <p className={classes.serverErr}>Por favor rellene todos los campos</p>
         )}
         <input
           onChange={inputChangeHandler}
@@ -114,7 +114,7 @@ const Register = ({ isTeacher }) => {
           placeholder="Apellidos"
         />
         {lNameInvalid && (
-          <p className={classes.serverErr}>Please fill out all fields</p>
+          <p className={classes.serverErr}>Por favor rellene todos los campos</p>
         )}
 
         <input
@@ -126,7 +126,7 @@ const Register = ({ isTeacher }) => {
           placeholder="Email"
         />
         {emailInvalid && (
-          <p className={classes.serverErr}>Please enter a valid Email</p>
+          <p className={classes.serverErr}>Por favor ingrese un Email valido</p>
         )}
 
         <input
@@ -144,8 +144,8 @@ const Register = ({ isTeacher }) => {
         )}
 
         <div className={classes.btnBox}>
-          <Button innerTxt={"Register"} clickMe={registerHandler} />
-          <Button innerTxt={"Return"} clickMe={closeModalHandler} />
+          <Button innerTxt={"Registrar"} clickMe={registerHandler} />
+          <Button innerTxt={"Volver"} clickMe={closeModalHandler} />
         </div>
       </form>
     </div>
