@@ -2,9 +2,9 @@ import Button from "../Utilities/Button/Button";
 import Link from "../Utilities/Link/Link";
 import classes from "./Hero.module.css";
 import { useDispatch } from "react-redux";
-//import { toggleLogRegModalActions } from "../../features/toggleLogRegModal";
-//import { isRegisteringActions } from "../../features/isRegistering";
-//import { isTeacherActions } from "../../features/isTeacher";
+import { toggleLogRegModalActions } from "../../features/toggleLogRegModal";
+import { isRegisteringActions } from "../../features/isRegistering";
+import { isTeacherActions } from "../../features/isTeacher";
 
 const Hero = () => {
   const dispatch = useDispatch();
