@@ -8,22 +8,29 @@ El profesor puede tener varias clases, verificar la lista de cada una, asignar t
 
 El estudiante tiene acceso de lectura a las tareas y también puede participar en el chat.
 
-### INSTRUCCIONES:
+### INSTRUCCIONES
+
+## REQUISITOS ##
+
+- Tener instalado Nodejs. https://nodejs.org/es/download/
+
 
 1. Descargar MongoDB Comunity Server e instalarlo en vuestro Sistema Operativo.
 
-<----- Enlace de descarga-----> https://www.mongodb.com/try/download/community<----- Enlace de descarga----->
+Enlace de descarga         https://www.mongodb.com/try/download/community       Enlace de descarga
 
-    - Cuando este descargado, hacemos click para instalarlo y eligimos las opciones:
+- Cuando este descargado, hacemos click para instalarlo y eligimos las opciones:
         - Instalacion completa.
         - En Servicio de configuracion quitar check en "Install MongoDb as a Service"
         - Todo Siguiente y Finalizar
-    -------------------------------------------REQUISITO IMPORTANTE-------------------------------------------
-        - Crear carpeta en la raiz del disco duro cuyo nombre sea data.
-    
-    - Al abrir el programa le damos a conectar al localhost y en Databases creamos un Database con el nombre aulavirtual
 
-    * Si queremos poner otro nombre debemos cambiar la url que esta en server/index.js hasta Databases.
+ - Crear carpeta en la raiz del disco duro cuyo nombre sea data y dentro de data otra carpeta cuyo nombre sea db.
+
+ - Ir a nuestra carpeta Equipo / Propiedades y Configuracion avanzada del sistema.
+    - Abajo sale Variables de entorno.
+    - En variables del sistema hacer click en Path y Editar
+    - A la derecha en Nuevo y poner la ruta donde este instalado Mongodb en este caso predeterminado esta :
+        C:\Program Files\MongoDB\Server\6.0\bin\
 
 2. Abrir terminal en la raiz del proyecto AULAVIRTUAL escribir `mongod`.
     Empezara a correr.
